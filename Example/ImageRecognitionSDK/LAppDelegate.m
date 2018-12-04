@@ -7,46 +7,46 @@
 //
 
 #import "LAppDelegate.h"
-//#import "ImageRecognition.h"
+#import "ImageRecognition.h"
 @implementation LAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-//    [ImageRecognition authWithAK:@"Hr3FEBCnvN53HnoPBhGzczDv" andSK:@"7YP7Vs6ImUtCOLbz95TUlO3LjnbYfC2H"];
-//    [ImageRecognition imageRecognitionGeneralBasicImage:[UIImage imageNamed:@"图片"] successHandler:^(id result, UIImage *image) {
-//        //处理数据
-//        NSMutableString *message = [NSMutableString string];
-//        if(result[@"words_result"]){
-//            if([result[@"words_result"] isKindOfClass:[NSDictionary class]]){
-//                [result[@"words_result"] enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop) {
-//                    if([obj isKindOfClass:[NSDictionary class]] && [obj objectForKey:@"words"]){
-//                        [message appendFormat:@"%@: %@\n", key, obj[@"words"]];
-//                    }else{
-//                        [message appendFormat:@"%@: %@\n", key, obj];
-//                    }
-//
-//                }];
-//            }else if([result[@"words_result"] isKindOfClass:[NSArray class]]){
-//                for(NSDictionary *obj in result[@"words_result"]){
-//                    if([obj isKindOfClass:[NSDictionary class]] && [obj objectForKey:@"words"]){
-//                        [message appendFormat:@"%@\n", obj[@"words"]];
-//                    }else{
-//                        [message appendFormat:@"%@\n", obj];
-//                    }
-//
-//                }
-//            }
-//
-//        }else{
-//            [message appendFormat:@"%@", result];
-//        }
-//
-//        NSLog(@"%@",message);
-//
-//    } failHandler:^(NSError *err) {
-//        NSLog(@"%@",err);
-//    }];
+    [ImageRecognition authWithAK:@"Hr3FEBCnvN53HnoPBhGzczDv" andSK:@"7YP7Vs6ImUtCOLbz95TUlO3LjnbYfC2H"];
+    [ImageRecognition imageRecognitionGeneralBasicImage:[UIImage imageNamed:@"图片"] successHandler:^(id result, UIImage *image) {
+        //处理数据
+        NSMutableString *message = [NSMutableString string];
+        if(result[@"words_result"]){
+            if([result[@"words_result"] isKindOfClass:[NSDictionary class]]){
+                [result[@"words_result"] enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop) {
+                    if([obj isKindOfClass:[NSDictionary class]] && [obj objectForKey:@"words"]){
+                        [message appendFormat:@"%@: %@\n", key, obj[@"words"]];
+                    }else{
+                        [message appendFormat:@"%@: %@\n", key, obj];
+                    }
+
+                }];
+            }else if([result[@"words_result"] isKindOfClass:[NSArray class]]){
+                for(NSDictionary *obj in result[@"words_result"]){
+                    if([obj isKindOfClass:[NSDictionary class]] && [obj objectForKey:@"words"]){
+                        [message appendFormat:@"%@\n", obj[@"words"]];
+                    }else{
+                        [message appendFormat:@"%@\n", obj];
+                    }
+
+                }
+            }
+
+        }else{
+            [message appendFormat:@"%@", result];
+        }
+
+        NSLog(@"%@",message);
+
+    } failHandler:^(NSError *err) {
+        NSLog(@"%@",err);
+    }];
 
     
     // Override point for customization after application launch.

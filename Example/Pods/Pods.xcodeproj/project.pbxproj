@@ -7,74 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		001D0962C0CB4FB9D354612817C119FC /* dengpao_dianjihou@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 26C026893CF3CF4391465E8D288797BE /* dengpao_dianjihou@2x.png */; };
-		07F3746BD664628C7A1AD2A1BCB219C7 /* AipGeneralVC.nib in Sources */ = {isa = PBXBuildFile; fileRef = 9E1C999D228204F69390785B8D5F57A9 /* AipGeneralVC.nib */; };
-		0CF9512458FE7E1BA4E331FDADAA4B1A /* guan@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB252E89DBF142120CF0E86324676F /* guan@3x.png */; };
-		1281EC21C4D5D3152B7B04A63795B3D5 /* AipGeneralVC.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB32ACF26B9BD07FC0BFAAB7F2BB2D6 /* AipGeneralVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26D7AD5D09E29DE9A0AECAA5A746906C /* info.png in Sources */ = {isa = PBXBuildFile; fileRef = 830F72EB1E54EF60C6655474C0DC2798 /* info.png */; };
+		342828D4A7C91C48FAD3221C7CA9FCE8 /* AipOcrSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 380777DADA175B59DC4CBDFF99CB95C9 /* AipOcrSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36F024993896C83FE1EA4A73D2171E3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		3A4966286AB0FDE7E900A6412C6331A0 /* queding@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 08B2BB248CC833EE7C27A505C658EA75 /* queding@2x.png */; };
-		3D2AE64E2BD1C581406FA23CCBBB6ABF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		412295D5AF97BA385B092E915964E131 /* xuanzhuan@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 6C1B857305B60F84422BB7D6BABCB70C /* xuanzhuan@3x.png */; };
-		4357B260936D8D39D3CBDC34C86EDDEA /* ImageRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6709D12BF5D130B7C2E640C7C1A5AC36 /* ImageRecognition.m */; };
-		46F9AADB39B9539F1C2E1B64088C1B1C /* ImageRecognitionSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 865D53CA14197A6F0A58EB2BE3BFDEAB /* ImageRecognitionSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4860682E9821B8A525DCB33599B3D7CC /* angle-mask@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 136625AB6C23B02B5B82234F013471D6 /* angle-mask@3x.png */; };
-		489FF29A2BF5E3F70C62B356ACDD0C78 /* success.png in Sources */ = {isa = PBXBuildFile; fileRef = D4B8FAA07833F72C3029B1675C3CB544 /* success.png */; };
-		4ABBB6E997707D4E78C21F72CC476688 /* dengpao_dianjihou@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 445A99F1CA776C2E47143D17452AC8BB /* dengpao_dianjihou@3x.png */; };
-		4B4A61903EFBB8B2003A513E6807E465 /* paizhaoanniu@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 1FE18AA52168E2C925F5742D84492546 /* paizhaoanniu@2x.png */; };
-		4E3174957229B2D4E4672A977EF25ECA /* AipOcrSdk in Sources */ = {isa = PBXBuildFile; fileRef = 1DBEA2FD53F64CA372C1D7EB78B15E14 /* AipOcrSdk */; };
-		4ED8EB33D9E99B59ABD314F9170B9A25 /* dengpao@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = ACB47C3B38D7219BCFCA33B450DF81CB /* dengpao@2x.png */; };
-		509E5F3B33BD57C4D1091E014E1E7BFC /* error@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 28232541434CE8FDE7C838C7B41A2BE6 /* error@2x.png */; };
-		523144FC7A3AC9D65438BE0439C6C11D /* AipBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D87770C425024A2EDA426608F634B79 /* AipBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54E6F516CE5BCA513485D933482D5D9F /* Page 1@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = A021699DFCA94F4E28B490032C88AFC1 /* Page 1@2x.png */; };
-		5643BCF533CDE0ABC3B39FB8C2876337 /* ImageRecognitionSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D919F6F72EC0DF2E2D9E0AA55F3953F /* ImageRecognitionSDK-dummy.m */; };
-		57047854A39C0C2C3A061D61E809BBCD /* guanbi@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = F18BA5142624AC8CFA31C9BC423191C7 /* guanbi@2x.png */; };
-		598234AAE3906D6C4E746DE65A7D848A /* AipOpenUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = 103D649A3DA7E38075D0E974B8712065 /* AipOpenUDID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48DFAD42078437F88AD7A3C87135A8AE /* IdcardQualityAdaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = D0BDC39954D9D8D207BE688EBA57735A /* IdcardQualityAdaptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B8ABCC4305897B649D08F0108F4E47B /* ImageRecognition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E4FD2890B970BA3455A45A31D2696F0 /* ImageRecognition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59F07C5152F7CE52656B21BCF80621DD /* Pods-ImageRecognitionSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1B70F43B8034E7CF79061E435E6CBA /* Pods-ImageRecognitionSDK_Tests-dummy.m */; };
-		5CB36DC5044EFCE61A070DC8AA9BFDE6 /* xuxian@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 2D4DC12D5A07D7B7170E8EBD13B38EDC /* xuxian@3x.png */; };
-		5F2737A9A16D7A58E9E2BEB984B07F8F /* paizhaoanniu@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 6C2525395629018D77418D7FFB3172A7 /* paizhaoanniu@3x.png */; };
-		6B85E0E136CDDF696CC0A22CB6CB4DCD /* AipOcrSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = E4D032F54BC916E3F267997E1211B01F /* AipOcrSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EB9054BC9CDABAE6930BCADA321333F /* idcard_quality.h in Headers */ = {isa = PBXBuildFile; fileRef = 798B3C8E5236AE87988DF41BD3EFD54F /* idcard_quality.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6267912CEE5F0F3EDA8720A4195605A7 /* AipTokenManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 14CC22013AF6F4B6C079505492E7EA6C /* AipTokenManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70CA3A5BB972237B2214BD31918654F6 /* Pods-ImageRecognitionSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A0AE7077D05779BA9284E1D5695FE50 /* Pods-ImageRecognitionSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70FABBDB65569F290D5593AE3C18B62D /* paizhaoanniu_dianjihou@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = EA0C92B215FF4786A762958A5504C9EA /* paizhaoanniu_dianjihou@2x.png */; };
-		7279F6D96767F721A34B315845ED8D4D /* AipCaptureCardVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A9B4A1CB032FDDE6B2DEEE818D84E24 /* AipCaptureCardVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74846213D9A13ACFB6BD14FE89D23849 /* error@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 5F671435BBD72B9677D97FEB3A87B338 /* error@3x.png */; };
-		7D2B87652A4BB96A9115FC0BCAF0AEDA /* NSErrorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9853F9DF1B61B3C8BAA6C8FAEC6C61F1 /* NSErrorHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F3E074ADEFBC125F492244FAC668DDD /* AipOcrService.h in Headers */ = {isa = PBXBuildFile; fileRef = A211D440201260026DDD3B93036E4ED1 /* AipOcrService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FBB3C41E6358E9750DC10CB39060591 /* guanbi@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = B9454F41A2F1E91CF602B02466ED575F /* guanbi@3x.png */; };
-		7FCF139B280F43ED280F19221DCEC1F6 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = F7CDDCD65BE83282D7728E7FC0E655F6 /* Info.plist */; };
-		83BF9E6A4D494D750A07330E17F3C780 /* tuku@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = AE45AD9A165A54CB3CB3AF1A6CD059E9 /* tuku@3x.png */; };
-		891BDD9D321FDAC77206E945A7E62859 /* integrity_model_secret.bin in Sources */ = {isa = PBXBuildFile; fileRef = 4175822F3907B1602E3A15A83B035429 /* integrity_model_secret.bin */; };
-		8AD28421ACAC91755AC2B90442FABA99 /* success@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEC80C63E2E6313BD0ADAF7F08F67E /* success@3x.png */; };
-		8CB7CB2F81FE4DB0974E3DD1A6148226 /* ImageRecognition.h in Headers */ = {isa = PBXBuildFile; fileRef = B4639934D76A7C7E51F666B51322B3DD /* ImageRecognition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9730BE80887942A181962DA20FFD5474 /* AipTokenManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D738FB58D7C0E98AF053D2486DBB5607 /* AipTokenManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97C906285232666BD81AF78840D48278 /* xuxian@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 232668EFAE806A42230C85E6030AA4CC /* xuxian@2x.png */; };
-		9FDCE9FA715A6EBE9C9B5381E87A17DE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 888F91E7249C6F8DFD441463C3BA40E2 /* ReplaceMe.m */; };
-		A33A806B26D9DD492760AF38AB0B87EC /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = DAE3E0A3E0E1320639F2102C3F67FEA4 /* module.modulemap */; };
-		A51A3A0934EA47DF4EEAA0A0323675D4 /* guan@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = B39386528CE4057CA94645485CD63B33 /* guan@2x.png */; };
-		ABBF0FE4CFC25D6336D868B0B7EF5CF0 /* angle-mask.png in Sources */ = {isa = PBXBuildFile; fileRef = AD9E04EF15AD3DF6BED31EEBC654C5DF /* angle-mask.png */; };
+		88AF1388097EA2346F1EF93B63ECAADD /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4033F0DE401253E8F643D8F337C63EFA /* ReplaceMe.m */; };
+		8A3991E9AD1E70A05454DB38942203AF /* AipOcrService.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FB1636AD95C96C1A69C89DCF1359C4 /* AipOcrService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AC5BA20F680E48F1447E8CE4248579E /* ImageRecognitionSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6617E875ADCE725D563CC92F9FB0A3D2 /* ImageRecognitionSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		989937D6723EB743CFE9DAEB4A196A24 /* ImageRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = D48CD37355E041D05A14B83DDD63A1F2 /* ImageRecognition.m */; };
+		A33B10FBFB3707CAC0C473D654ED04CF /* AipGeneralVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6CD841E886316E7690293AFA0DFEB0 /* AipGeneralVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7D7AF1DE5938EA68098286BCC1244B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		B04DE864EE7A8A0B53E7563BC0DB6203 /* Pods-ImageRecognitionSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A59B49ACA9BEC0E1DDA3468EA1494345 /* Pods-ImageRecognitionSDK_Example-dummy.m */; };
-		B30243FCEEACB9A8B5EEAC1F91E01C51 /* qVB-bS-VcD-view-pEK-B6-uAC.nib in Sources */ = {isa = PBXBuildFile; fileRef = 5C0D56E15BF7CE6702B9C4004EC4C6D3 /* qVB-bS-VcD-view-pEK-B6-uAC.nib */; };
-		B81C69141A7D5A6328EC2D6229FD23BB /* AipBase in Sources */ = {isa = PBXBuildFile; fileRef = B829F452F7D2428F3AD57F18B59ACA05 /* AipBase */; };
-		B8455E8091CCBC4CCAF518B98208DF61 /* Page 1@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = E0021A63696CB84A6B573444EDB52938 /* Page 1@3x.png */; };
-		BA27816CEBFA8D9436E203B9F37F1225 /* info@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = E9F141AF0495920D4BD9368A7F785AE7 /* info@3x.png */; };
-		BA31F96C691FF7A7508BEBC9E476F691 /* AipCaptureCardVC.nib in Sources */ = {isa = PBXBuildFile; fileRef = 8E5090E7050C72C0ED4C2B0D872D1C79 /* AipCaptureCardVC.nib */; };
-		BACAC1D66908700091EF982BF9CAD9DC /* IdcardQuality in Sources */ = {isa = PBXBuildFile; fileRef = 0FF002AC58E847543A71CBF089886E37 /* IdcardQuality */; };
-		BB45F7F34BC09F14252D73A18B1F11E3 /* error.png in Sources */ = {isa = PBXBuildFile; fileRef = 185CE3920EE33240E47E100E24F09E29 /* error.png */; };
-		BBD285A50A681A2E5EBBA0F058C156A7 /* IdcardQuality.h in Headers */ = {isa = PBXBuildFile; fileRef = A8DEED6524AE349AFAB26C0A425AABB6 /* IdcardQuality.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC162195DC5E39E4372B56CE0C2DB8B0 /* ANZ-N0-y67-view-Tv2-ge-o8Q.nib in Sources */ = {isa = PBXBuildFile; fileRef = 459B15E4ACA8A099CDC8865901C969F6 /* ANZ-N0-y67-view-Tv2-ge-o8Q.nib */; };
+		B72FB7A79D1C19307CCB3EEA81CB1E48 /* AipOpenUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C6591C3C233124C45C743C84441D15 /* AipOpenUDID.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD47FA102054B80BE9C75189B6736ADA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		C34EBF5B2C7E4C30B23650E35597E5D3 /* tuku@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = D659B3AE411D30FC12D88E5ECD599B9B /* tuku@2x.png */; };
-		C592D8441ABDBFC286A9EB222125D797 /* angle-mask@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = F90FEC941940847D0865494C05B2198B /* angle-mask@2x.png */; };
-		C8B0BBB893CD2CCC71B46ADF223D8D31 /* IdcardQualityAdaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 306606ED97B4B8A434A0C0FE6C85DC9A /* IdcardQualityAdaptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D908FB710BB1883983AC442133AB1C71 /* xuanzhuan@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 029C3CCB378ABC772A187CFB7B1C5108 /* xuanzhuan@2x.png */; };
-		DC12BAA589FFEC97F7962C462D434872 /* dengpao@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = FD0C8F81AA7D1469DCC164B5FAC5CF9C /* dengpao@3x.png */; };
+		CC17C5AFDE8A96BBA6774D09041790A1 /* ImageRecognitionSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6DEBC21F995669AEFAB25A101588AA /* ImageRecognitionSDK-dummy.m */; };
+		D3209D1136AE3B7CA73711B35AA8207D /* AipCaptureCardVC.h in Headers */ = {isa = PBXBuildFile; fileRef = CB613FD35306D84444943BECAE314D54 /* AipCaptureCardVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE895E6332813C3C9E15B0170D66AC1C /* AipBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DA8E6E5579C3117A15031D7CE969E06 /* AipBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E763F73DD043F89BBD32B264889C2122 /* Pods-ImageRecognitionSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D34B592152DE6CB51558E6B938ADA569 /* Pods-ImageRecognitionSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED05E27A6D591C4C5582D0B0E48CE54A /* success@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 4625E76F95FF9B69D4EE809C26B89F78 /* success@2x.png */; };
-		EFD3BA8EB6B669E52387D7FF2C3EF15A /* info@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = AB41F0C1DA846D6AE33FD52AF3F2D45C /* info@2x.png */; };
-		F0630E6125B7469A60CDB974C227E1EB /* quality_model_secret.bin in Sources */ = {isa = PBXBuildFile; fileRef = 405ADEBB493EC172AF1610D6C862EC01 /* quality_model_secret.bin */; };
-		FD7BC77259C828DF92E3DBCC73C8372A /* queding@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = DC512B4AB0D9038772B769364173F3B4 /* queding@3x.png */; };
-		FE27BCED1EBB49CAE0D4731A45B33F81 /* paizhaoanniu_dianjihou@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = D6F3DED97A78365C1F406011A7313FF3 /* paizhaoanniu_dianjihou@3x.png */; };
+		ED76FB5FB3FA02D0FCB9C8D4D9119967 /* IdcardQuality.h in Headers */ = {isa = PBXBuildFile; fileRef = 841228F3FC812037A6025E50EBFEEA1D /* IdcardQuality.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F98FF45E0E5552513129EDE707C0A974 /* idcard_quality.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B5A300F3910A57FA7B995CD0615948 /* idcard_quality.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDFAFDF2493F1C66C836CD501FBF1D4 /* NSErrorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF177F51613455BA3AB3282F197A8BE /* NSErrorHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,115 +44,68 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CAEA86410AE78DC812E7B73895AAA82B;
+			remoteGlobalIDString = 7668EE3600E185A7CDFA326375A3268B;
 			remoteInfo = ImageRecognitionSDK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		029C3CCB378ABC772A187CFB7B1C5108 /* xuanzhuan@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "xuanzhuan@2x.png"; sourceTree = "<group>"; };
-		08B2BB248CC833EE7C27A505C658EA75 /* queding@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "queding@2x.png"; sourceTree = "<group>"; };
-		0936CF62309D25FBF0233075C3EC348E /* ImageRecognitionSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ImageRecognitionSDK-Info.plist"; sourceTree = "<group>"; };
-		0D87770C425024A2EDA426608F634B79 /* AipBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipBase.h; sourceTree = "<group>"; };
-		0FF002AC58E847543A71CBF089886E37 /* IdcardQuality */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; path = IdcardQuality; sourceTree = "<group>"; };
-		103D649A3DA7E38075D0E974B8712065 /* AipOpenUDID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipOpenUDID.h; sourceTree = "<group>"; };
-		136625AB6C23B02B5B82234F013471D6 /* angle-mask@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "angle-mask@3x.png"; sourceTree = "<group>"; };
-		1438E8B6B33E4C9622D82C9EB53FC990 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		14670B7576BE6BA4485F7FB3539FA4F5 /* Pods-ImageRecognitionSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageRecognitionSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1724644B5A16058DED08E63553B20407 /* ImageRecognitionSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageRecognitionSDK-prefix.pch"; sourceTree = "<group>"; };
-		185CE3920EE33240E47E100E24F09E29 /* error.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
-		1D919F6F72EC0DF2E2D9E0AA55F3953F /* ImageRecognitionSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageRecognitionSDK-dummy.m"; sourceTree = "<group>"; };
-		1DBEA2FD53F64CA372C1D7EB78B15E14 /* AipOcrSdk */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; path = AipOcrSdk; sourceTree = "<group>"; };
-		1FE18AA52168E2C925F5742D84492546 /* paizhaoanniu@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "paizhaoanniu@2x.png"; sourceTree = "<group>"; };
-		232668EFAE806A42230C85E6030AA4CC /* xuxian@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "xuxian@2x.png"; sourceTree = "<group>"; };
-		26C026893CF3CF4391465E8D288797BE /* dengpao_dianjihou@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dengpao_dianjihou@2x.png"; sourceTree = "<group>"; };
-		28232541434CE8FDE7C838C7B41A2BE6 /* error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
+		14CC22013AF6F4B6C079505492E7EA6C /* AipTokenManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipTokenManager.h; sourceTree = "<group>"; };
+		1BF177F51613455BA3AB3282F197A8BE /* NSErrorHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NSErrorHelper.h; sourceTree = "<group>"; };
+		1DA8E6E5579C3117A15031D7CE969E06 /* AipBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipBase.h; sourceTree = "<group>"; };
+		220A6EC5D9360AB285EFCC10FDDF1130 /* ImageRecognitionSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageRecognitionSDK.xcconfig; sourceTree = "<group>"; };
+		27717EEDCD540E3B6DF6D7933AC7B434 /* AipOcrSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AipOcrSdk.framework; path = ImageRecognitionSDK/Classes/framework/AipOcrSdk.framework; sourceTree = "<group>"; };
+		29B5A300F3910A57FA7B995CD0615948 /* idcard_quality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = idcard_quality.h; sourceTree = "<group>"; };
 		2C9361944CB62035F8DD3506EB7E0C26 /* Pods-ImageRecognitionSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageRecognitionSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2CEEC80C63E2E6313BD0ADAF7F08F67E /* success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "success@3x.png"; sourceTree = "<group>"; };
-		2D4DC12D5A07D7B7170E8EBD13B38EDC /* xuxian@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "xuxian@3x.png"; sourceTree = "<group>"; };
-		2EBB252E89DBF142120CF0E86324676F /* guan@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "guan@3x.png"; sourceTree = "<group>"; };
-		306606ED97B4B8A434A0C0FE6C85DC9A /* IdcardQualityAdaptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IdcardQualityAdaptor.h; sourceTree = "<group>"; };
+		2E6BB168090D5016A9F082C435B57300 /* ImageRecognitionSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ImageRecognitionSDK.modulemap; sourceTree = "<group>"; };
+		380777DADA175B59DC4CBDFF99CB95C9 /* AipOcrSdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipOcrSdk.h; sourceTree = "<group>"; };
 		3BB9232BDC84914DCEAC8B304DDC1C80 /* Pods-ImageRecognitionSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageRecognitionSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		405ADEBB493EC172AF1610D6C862EC01 /* quality_model_secret.bin */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.macbinary; path = quality_model_secret.bin; sourceTree = "<group>"; };
-		4175822F3907B1602E3A15A83B035429 /* integrity_model_secret.bin */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.macbinary; path = integrity_model_secret.bin; sourceTree = "<group>"; };
-		41C0CD7381BA616F0CA0A28C5342B727 /* ImageRecognitionSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ImageRecognitionSDK.modulemap; sourceTree = "<group>"; };
-		445A99F1CA776C2E47143D17452AC8BB /* dengpao_dianjihou@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dengpao_dianjihou@3x.png"; sourceTree = "<group>"; };
-		459B15E4ACA8A099CDC8865901C969F6 /* ANZ-N0-y67-view-Tv2-ge-o8Q.nib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "ANZ-N0-y67-view-Tv2-ge-o8Q.nib"; sourceTree = "<group>"; };
-		4625E76F95FF9B69D4EE809C26B89F78 /* success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "success@2x.png"; sourceTree = "<group>"; };
-		47DD231B80E12FADF4067767B58F7B32 /* ImageRecognitionSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ImageRecognitionSDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		3F6CD841E886316E7690293AFA0DFEB0 /* AipGeneralVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipGeneralVC.h; sourceTree = "<group>"; };
+		4033F0DE401253E8F643D8F337C63EFA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ImageRecognitionSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		4AEB0E1FE1529EBB2B43D7BA00553383 /* Pods-ImageRecognitionSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageRecognitionSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		56E064151A98D0A6D15D8AA164853D62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D6DEBC21F995669AEFAB25A101588AA /* ImageRecognitionSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageRecognitionSDK-dummy.m"; sourceTree = "<group>"; };
+		59FA8A89B7CCED27C65BEB57972BDF96 /* ImageRecognitionSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ImageRecognitionSDK-Info.plist"; sourceTree = "<group>"; };
 		5A0AE7077D05779BA9284E1D5695FE50 /* Pods-ImageRecognitionSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageRecognitionSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		5C0D56E15BF7CE6702B9C4004EC4C6D3 /* qVB-bS-VcD-view-pEK-B6-uAC.nib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "qVB-bS-VcD-view-pEK-B6-uAC.nib"; sourceTree = "<group>"; };
-		5F671435BBD72B9677D97FEB3A87B338 /* error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "error@3x.png"; sourceTree = "<group>"; };
-		6709D12BF5D130B7C2E640C7C1A5AC36 /* ImageRecognition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ImageRecognition.m; sourceTree = "<group>"; };
-		6C1B857305B60F84422BB7D6BABCB70C /* xuanzhuan@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "xuanzhuan@3x.png"; sourceTree = "<group>"; };
-		6C2525395629018D77418D7FFB3172A7 /* paizhaoanniu@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "paizhaoanniu@3x.png"; sourceTree = "<group>"; };
-		719E1ABDADE072631F2DEF72CF827817 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		73169B7B6D5E4892903D28F198A1CB86 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
-		798B3C8E5236AE87988DF41BD3EFD54F /* idcard_quality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = idcard_quality.h; sourceTree = "<group>"; };
+		60201078D9DBCCDF2CD0706D7162BBA3 /* ImageRecognitionSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ImageRecognitionSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6223A2297AEDF9B4FB393865A53DDA98 /* IdcardQuality.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IdcardQuality.framework; path = ImageRecognitionSDK/Classes/framework/IdcardQuality.framework; sourceTree = "<group>"; };
+		6617E875ADCE725D563CC92F9FB0A3D2 /* ImageRecognitionSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageRecognitionSDK-umbrella.h"; sourceTree = "<group>"; };
+		6F743B85594ECC95B7815376AE5B38D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		818FF21003B625E24323786EFB851A8E /* Pods-ImageRecognitionSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageRecognitionSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		830F72EB1E54EF60C6655474C0DC2798 /* info.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		841228F3FC812037A6025E50EBFEEA1D /* IdcardQuality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IdcardQuality.h; sourceTree = "<group>"; };
 		85DDA1D4BA7345D848FA5930943DAEA2 /* Pods-ImageRecognitionSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageRecognitionSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		865D53CA14197A6F0A58EB2BE3BFDEAB /* ImageRecognitionSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageRecognitionSDK-umbrella.h"; sourceTree = "<group>"; };
-		888F91E7249C6F8DFD441463C3BA40E2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ImageRecognitionSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		8A9B4A1CB032FDDE6B2DEEE818D84E24 /* AipCaptureCardVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipCaptureCardVC.h; sourceTree = "<group>"; };
 		8B3267B3C16D11C6C7C60E3DBA686188 /* Pods-ImageRecognitionSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageRecognitionSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8E5090E7050C72C0ED4C2B0D872D1C79 /* AipCaptureCardVC.nib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = AipCaptureCardVC.nib; sourceTree = "<group>"; };
-		9853F9DF1B61B3C8BAA6C8FAEC6C61F1 /* NSErrorHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NSErrorHelper.h; sourceTree = "<group>"; };
-		9E1C999D228204F69390785B8D5F57A9 /* AipGeneralVC.nib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = AipGeneralVC.nib; sourceTree = "<group>"; };
-		A021699DFCA94F4E28B490032C88AFC1 /* Page 1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Page 1@2x.png"; sourceTree = "<group>"; };
-		A211D440201260026DDD3B93036E4ED1 /* AipOcrService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipOcrService.h; sourceTree = "<group>"; };
-		A23BA8E50DD08755D3983C83AC9B0428 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97FB1636AD95C96C1A69C89DCF1359C4 /* AipOcrService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipOcrService.h; sourceTree = "<group>"; };
+		9E4FD2890B970BA3455A45A31D2696F0 /* ImageRecognition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ImageRecognition.h; sourceTree = "<group>"; };
 		A59B49ACA9BEC0E1DDA3468EA1494345 /* Pods-ImageRecognitionSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageRecognitionSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		A8DEED6524AE349AFAB26C0A425AABB6 /* IdcardQuality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IdcardQuality.h; sourceTree = "<group>"; };
-		AB41F0C1DA846D6AE33FD52AF3F2D45C /* info@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
-		ABE39D8D4A5CB5A1732263121923971D /* Pods_ImageRecognitionSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageRecognitionSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACB47C3B38D7219BCFCA33B450DF81CB /* dengpao@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dengpao@2x.png"; sourceTree = "<group>"; };
-		AD9E04EF15AD3DF6BED31EEBC654C5DF /* angle-mask.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "angle-mask.png"; sourceTree = "<group>"; };
-		AE45AD9A165A54CB3CB3AF1A6CD059E9 /* tuku@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tuku@3x.png"; sourceTree = "<group>"; };
-		B142548F128CDA7C8BD14C7FE769B2EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABE39D8D4A5CB5A1732263121923971D /* Pods_ImageRecognitionSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageRecognitionSDK_Example.framework; path = "Pods-ImageRecognitionSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23DA4C132D3040C86BD7D899B61FA22 /* Pods-ImageRecognitionSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageRecognitionSDK_Example.modulemap"; sourceTree = "<group>"; };
-		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B39386528CE4057CA94645485CD63B33 /* guan@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "guan@2x.png"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B3FE21F27D8C313EA23EFDC705FFEE1D /* Pods-ImageRecognitionSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageRecognitionSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		B4639934D76A7C7E51F666B51322B3DD /* ImageRecognition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ImageRecognition.h; sourceTree = "<group>"; };
-		B65C28645DBDB71C4232EE673972078C /* ImageRecognitionSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageRecognitionSDK.xcconfig; sourceTree = "<group>"; };
 		B6A3DB869CEED1591A99CF58FCC49FF3 /* Pods-ImageRecognitionSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageRecognitionSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		B829F452F7D2428F3AD57F18B59ACA05 /* AipBase */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; path = AipBase; sourceTree = "<group>"; };
-		B9454F41A2F1E91CF602B02466ED575F /* guanbi@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "guanbi@3x.png"; sourceTree = "<group>"; };
-		B9A28CE4D44FCC805DAA412A4C47773B /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		B6C6591C3C233124C45C743C84441D15 /* AipOpenUDID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipOpenUDID.h; sourceTree = "<group>"; };
 		C2B4B884E07C71FD01ACAE7AB1F08297 /* Pods-ImageRecognitionSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageRecognitionSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C303B7E07DFBC01D8C72CBB4078F651F /* Pods-ImageRecognitionSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageRecognitionSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CDB32ACF26B9BD07FC0BFAAB7F2BB2D6 /* AipGeneralVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipGeneralVC.h; sourceTree = "<group>"; };
+		CB613FD35306D84444943BECAE314D54 /* AipCaptureCardVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipCaptureCardVC.h; sourceTree = "<group>"; };
+		D0BDC39954D9D8D207BE688EBA57735A /* IdcardQualityAdaptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IdcardQualityAdaptor.h; sourceTree = "<group>"; };
 		D34B592152DE6CB51558E6B938ADA569 /* Pods-ImageRecognitionSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageRecognitionSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D4B8FAA07833F72C3029B1675C3CB544 /* success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
-		D659B3AE411D30FC12D88E5ECD599B9B /* tuku@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tuku@2x.png"; sourceTree = "<group>"; };
+		D3905D73465F2324E7D10798FE293616 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D48CD37355E041D05A14B83DDD63A1F2 /* ImageRecognition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ImageRecognition.m; sourceTree = "<group>"; };
+		D560DFD0239D15717A89DB921806BC4D /* AipBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AipBase.framework; path = ImageRecognitionSDK/Classes/framework/AipBase.framework; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D6F3DED97A78365C1F406011A7313FF3 /* paizhaoanniu_dianjihou@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "paizhaoanniu_dianjihou@3x.png"; sourceTree = "<group>"; };
-		D738FB58D7C0E98AF053D2486DBB5607 /* AipTokenManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipTokenManager.h; sourceTree = "<group>"; };
-		DAE3E0A3E0E1320639F2102C3F67FEA4 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
-		DC512B4AB0D9038772B769364173F3B4 /* queding@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "queding@3x.png"; sourceTree = "<group>"; };
-		E0021A63696CB84A6B573444EDB52938 /* Page 1@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Page 1@3x.png"; sourceTree = "<group>"; };
-		E4D032F54BC916E3F267997E1211B01F /* AipOcrSdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipOcrSdk.h; sourceTree = "<group>"; };
-		E9F141AF0495920D4BD9368A7F785AE7 /* info@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "info@3x.png"; sourceTree = "<group>"; };
-		EA0C92B215FF4786A762958A5504C9EA /* paizhaoanniu_dianjihou@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "paizhaoanniu_dianjihou@2x.png"; sourceTree = "<group>"; };
-		F18BA5142624AC8CFA31C9BC423191C7 /* guanbi@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "guanbi@2x.png"; sourceTree = "<group>"; };
 		F4DD16EDB2A1896F07459D549AD89C7B /* Pods-ImageRecognitionSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageRecognitionSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F7CDDCD65BE83282D7728E7FC0E655F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F90FEC941940847D0865494C05B2198B /* angle-mask@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "angle-mask@2x.png"; sourceTree = "<group>"; };
-		FB472F63378CBC59C6C65EF291A2D0D2 /* Pods_ImageRecognitionSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageRecognitionSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBF676EECF228B5CD2124633FFABAA02 /* ImageRecognitionSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageRecognitionSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD0C8F81AA7D1469DCC164B5FAC5CF9C /* dengpao@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dengpao@3x.png"; sourceTree = "<group>"; };
+		FB472F63378CBC59C6C65EF291A2D0D2 /* Pods_ImageRecognitionSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageRecognitionSDK_Tests.framework; path = "Pods-ImageRecognitionSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8D9252A05B9D828441C51A8656F917 /* ImageRecognitionSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageRecognitionSDK-prefix.pch"; sourceTree = "<group>"; };
+		FBF676EECF228B5CD2124633FFABAA02 /* ImageRecognitionSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImageRecognitionSDK.framework; path = ImageRecognitionSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD1B70F43B8034E7CF79061E435E6CBA /* Pods-ImageRecognitionSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageRecognitionSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2F53554685BCC99DBF9D4421DBBBE930 /* Frameworks */ = {
+		1118DE9F6F2909D8B04CE398B316EC38 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D2AE64E2BD1C581406FA23CCBBB6ABF /* Foundation.framework in Frameworks */,
+				A7D7AF1DE5938EA68098286BCC1244B2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,35 +128,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06CDB33C0C91AE4F7A12545D91E258AC /* Pod */ = {
+		0E7DF567009C03281BB840DCDD61DD03 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				47DD231B80E12FADF4067767B58F7B32 /* ImageRecognitionSDK.podspec */,
-				1438E8B6B33E4C9622D82C9EB53FC990 /* LICENSE */,
-				719E1ABDADE072631F2DEF72CF827817 /* README.md */,
+				2E6BB168090D5016A9F082C435B57300 /* ImageRecognitionSDK.modulemap */,
+				220A6EC5D9360AB285EFCC10FDDF1130 /* ImageRecognitionSDK.xcconfig */,
+				4D6DEBC21F995669AEFAB25A101588AA /* ImageRecognitionSDK-dummy.m */,
+				59FA8A89B7CCED27C65BEB57972BDF96 /* ImageRecognitionSDK-Info.plist */,
+				FB8D9252A05B9D828441C51A8656F917 /* ImageRecognitionSDK-prefix.pch */,
+				6617E875ADCE725D563CC92F9FB0A3D2 /* ImageRecognitionSDK-umbrella.h */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		2EAFEA8053DE03C91FC0C9F795087AB2 /* AipBase.framework */ = {
-			isa = PBXGroup;
-			children = (
-				B829F452F7D2428F3AD57F18B59ACA05 /* AipBase */,
-				56E064151A98D0A6D15D8AA164853D62 /* Info.plist */,
-				C4A39A91657E55359B7A832F750764E2 /* Headers */,
-				A223CC4C1B61660B9BDB2AC0BCACC16D /* Modules */,
-			);
-			path = AipBase.framework;
-			sourceTree = "<group>";
-		};
-		3882721D1901D7465CC94C302B431866 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				798B3C8E5236AE87988DF41BD3EFD54F /* idcard_quality.h */,
-				A8DEED6524AE349AFAB26C0A425AABB6 /* IdcardQuality.h */,
-				306606ED97B4B8A434A0C0FE6C85DC9A /* IdcardQualityAdaptor.h */,
-			);
-			path = Headers;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ImageRecognitionSDK";
 			sourceTree = "<group>";
 		};
 		3FF0C9B4B3B7EA8459674392D94682B1 /* Pods-ImageRecognitionSDK_Example */ = {
@@ -268,12 +159,16 @@
 			path = "Target Support Files/Pods-ImageRecognitionSDK_Example";
 			sourceTree = "<group>";
 		};
-		44845E52EA095F4CC70148D31E52EB5F /* Modules */ = {
+		41A643BE459AD75D2EF47D0D3A7661CB /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				DAE3E0A3E0E1320639F2102C3F67FEA4 /* module.modulemap */,
+				CB613FD35306D84444943BECAE314D54 /* AipCaptureCardVC.h */,
+				3F6CD841E886316E7690293AFA0DFEB0 /* AipGeneralVC.h */,
+				380777DADA175B59DC4CBDFF99CB95C9 /* AipOcrSdk.h */,
+				97FB1636AD95C96C1A69C89DCF1359C4 /* AipOcrService.h */,
 			);
-			path = Modules;
+			name = Headers;
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
@@ -284,47 +179,38 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5CB157A08D73358330BF16A1B4BFBE69 /* Development Pods */ = {
+		7058CFDBB3BE62354F26AA1BF479AA78 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				62B0D6C2DCA506C4FEF5C74B08FAE140 /* ImageRecognitionSDK */,
+				29B5A300F3910A57FA7B995CD0615948 /* idcard_quality.h */,
+				841228F3FC812037A6025E50EBFEEA1D /* IdcardQuality.h */,
+				D0BDC39954D9D8D207BE688EBA57735A /* IdcardQualityAdaptor.h */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		62B0D6C2DCA506C4FEF5C74B08FAE140 /* ImageRecognitionSDK */ = {
-			isa = PBXGroup;
-			children = (
-				888F91E7249C6F8DFD441463C3BA40E2 /* ReplaceMe.m */,
-				940C5DCDBE1B70043CB6D619AC85A8F7 /* code */,
-				81458A9FD924CC0087463CA86D1EE055 /* framework */,
-				06CDB33C0C91AE4F7A12545D91E258AC /* Pod */,
-				D099D6A074169CB2F4B8522829C2F85D /* Support Files */,
-			);
-			name = ImageRecognitionSDK;
-			path = ../..;
+			name = Headers;
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
-				5CB157A08D73358330BF16A1B4BFBE69 /* Development Pods */,
+				D121ECF3FD02A51C146E94F561E0F0A0 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				8FC6BE2D33D845890A67EEC26B0CE2AE /* Products */,
 				AA732C1EA954E8DB2C1D0BEEFFA80836 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		81458A9FD924CC0087463CA86D1EE055 /* framework */ = {
+		836BBA5376FD39E1390357C91182BD22 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				2EAFEA8053DE03C91FC0C9F795087AB2 /* AipBase.framework */,
-				E45B00D2E70DE52909285D50BE264C73 /* AipOcrSdk.framework */,
-				913C45D4C30201E406EE19756C314A4D /* IdcardQuality.framework */,
+				1DA8E6E5579C3117A15031D7CE969E06 /* AipBase.h */,
+				B6C6591C3C233124C45C743C84441D15 /* AipOpenUDID.h */,
+				14CC22013AF6F4B6C079505492E7EA6C /* AipTokenManager.h */,
+				1BF177F51613455BA3AB3282F197A8BE /* NSErrorHelper.h */,
 			);
-			name = framework;
-			path = ImageRecognitionSDK/Classes/framework;
+			name = Headers;
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		8FC6BE2D33D845890A67EEC26B0CE2AE /* Products */ = {
@@ -337,43 +223,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		913C45D4C30201E406EE19756C314A4D /* IdcardQuality.framework */ = {
+		952892F15DC7FAF17FB6837B2BA31289 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0FF002AC58E847543A71CBF089886E37 /* IdcardQuality */,
-				F7CDDCD65BE83282D7728E7FC0E655F6 /* Info.plist */,
-				4175822F3907B1602E3A15A83B035429 /* integrity_model_secret.bin */,
-				405ADEBB493EC172AF1610D6C862EC01 /* quality_model_secret.bin */,
-				3882721D1901D7465CC94C302B431866 /* Headers */,
-				44845E52EA095F4CC70148D31E52EB5F /* Modules */,
+				D560DFD0239D15717A89DB921806BC4D /* AipBase.framework */,
+				27717EEDCD540E3B6DF6D7933AC7B434 /* AipOcrSdk.framework */,
+				6223A2297AEDF9B4FB393865A53DDA98 /* IdcardQuality.framework */,
 			);
-			path = IdcardQuality.framework;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		940C5DCDBE1B70043CB6D619AC85A8F7 /* code */ = {
+		97D9C885724DD73187C5BA23229FF699 /* code */ = {
 			isa = PBXGroup;
 			children = (
-				B4639934D76A7C7E51F666B51322B3DD /* ImageRecognition.h */,
-				6709D12BF5D130B7C2E640C7C1A5AC36 /* ImageRecognition.m */,
+				9E4FD2890B970BA3455A45A31D2696F0 /* ImageRecognition.h */,
+				D48CD37355E041D05A14B83DDD63A1F2 /* ImageRecognition.m */,
 			);
 			name = code;
 			path = ImageRecognitionSDK/Classes/code;
 			sourceTree = "<group>";
 		};
-		A223CC4C1B61660B9BDB2AC0BCACC16D /* Modules */ = {
+		A766B76E6F418E3FCD7FFCCF22C2AD88 /* AipOcrSdk.framework */ = {
 			isa = PBXGroup;
 			children = (
-				73169B7B6D5E4892903D28F198A1CB86 /* module.modulemap */,
+				41A643BE459AD75D2EF47D0D3A7661CB /* Headers */,
 			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		A2DDA750ABD74043A4D32BF5B939C972 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				B9A28CE4D44FCC805DAA412A4C47773B /* module.modulemap */,
-			);
-			path = Modules;
+			name = AipOcrSdk.framework;
+			path = AipOcrSdk.framework;
 			sourceTree = "<group>";
 		};
 		AA732C1EA954E8DB2C1D0BEEFFA80836 /* Targets Support Files */ = {
@@ -385,29 +261,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AC55436D5A773A81EB0BA5191CE6D06E /* AipOcrSdk.storyboardc */ = {
-			isa = PBXGroup;
-			children = (
-				8E5090E7050C72C0ED4C2B0D872D1C79 /* AipCaptureCardVC.nib */,
-				9E1C999D228204F69390785B8D5F57A9 /* AipGeneralVC.nib */,
-				459B15E4ACA8A099CDC8865901C969F6 /* ANZ-N0-y67-view-Tv2-ge-o8Q.nib */,
-				B142548F128CDA7C8BD14C7FE769B2EC /* Info.plist */,
-				5C0D56E15BF7CE6702B9C4004EC4C6D3 /* qVB-bS-VcD-view-pEK-B6-uAC.nib */,
-			);
-			path = AipOcrSdk.storyboardc;
-			sourceTree = "<group>";
-		};
-		AF4D2CD0BA31DE0B6CC9E5DB3913C3A6 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				8A9B4A1CB032FDDE6B2DEEE818D84E24 /* AipCaptureCardVC.h */,
-				CDB32ACF26B9BD07FC0BFAAB7F2BB2D6 /* AipGeneralVC.h */,
-				E4D032F54BC916E3F267997E1211B01F /* AipOcrSdk.h */,
-				A211D440201260026DDD3B93036E4ED1 /* AipOcrService.h */,
-			);
-			path = Headers;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -416,83 +269,65 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C4A39A91657E55359B7A832F750764E2 /* Headers */ = {
+		BD0D1E009411C0C56C249B9CD4186C6B /* AipBase.framework */ = {
 			isa = PBXGroup;
 			children = (
-				0D87770C425024A2EDA426608F634B79 /* AipBase.h */,
-				103D649A3DA7E38075D0E974B8712065 /* AipOpenUDID.h */,
-				D738FB58D7C0E98AF053D2486DBB5607 /* AipTokenManager.h */,
-				9853F9DF1B61B3C8BAA6C8FAEC6C61F1 /* NSErrorHelper.h */,
+				836BBA5376FD39E1390357C91182BD22 /* Headers */,
 			);
-			path = Headers;
+			name = AipBase.framework;
+			path = AipBase.framework;
 			sourceTree = "<group>";
 		};
-		D099D6A074169CB2F4B8522829C2F85D /* Support Files */ = {
+		D121ECF3FD02A51C146E94F561E0F0A0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				41C0CD7381BA616F0CA0A28C5342B727 /* ImageRecognitionSDK.modulemap */,
-				B65C28645DBDB71C4232EE673972078C /* ImageRecognitionSDK.xcconfig */,
-				1D919F6F72EC0DF2E2D9E0AA55F3953F /* ImageRecognitionSDK-dummy.m */,
-				0936CF62309D25FBF0233075C3EC348E /* ImageRecognitionSDK-Info.plist */,
-				1724644B5A16058DED08E63553B20407 /* ImageRecognitionSDK-prefix.pch */,
-				865D53CA14197A6F0A58EB2BE3BFDEAB /* ImageRecognitionSDK-umbrella.h */,
+				F362CBDA06725A9614C7B7814DA9A314 /* ImageRecognitionSDK */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ImageRecognitionSDK";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		D735868FC9C788591CFD5DCB294A6B3B /* SVProgressHUD.bundle */ = {
+		DDBE707EC693A0B6734BFBFFFE5A2F54 /* IdcardQuality.framework */ = {
 			isa = PBXGroup;
 			children = (
-				AD9E04EF15AD3DF6BED31EEBC654C5DF /* angle-mask.png */,
-				F90FEC941940847D0865494C05B2198B /* angle-mask@2x.png */,
-				136625AB6C23B02B5B82234F013471D6 /* angle-mask@3x.png */,
-				185CE3920EE33240E47E100E24F09E29 /* error.png */,
-				28232541434CE8FDE7C838C7B41A2BE6 /* error@2x.png */,
-				5F671435BBD72B9677D97FEB3A87B338 /* error@3x.png */,
-				830F72EB1E54EF60C6655474C0DC2798 /* info.png */,
-				AB41F0C1DA846D6AE33FD52AF3F2D45C /* info@2x.png */,
-				E9F141AF0495920D4BD9368A7F785AE7 /* info@3x.png */,
-				D4B8FAA07833F72C3029B1675C3CB544 /* success.png */,
-				4625E76F95FF9B69D4EE809C26B89F78 /* success@2x.png */,
-				2CEEC80C63E2E6313BD0ADAF7F08F67E /* success@3x.png */,
+				7058CFDBB3BE62354F26AA1BF479AA78 /* Headers */,
 			);
-			path = SVProgressHUD.bundle;
+			name = IdcardQuality.framework;
+			path = IdcardQuality.framework;
 			sourceTree = "<group>";
 		};
-		E45B00D2E70DE52909285D50BE264C73 /* AipOcrSdk.framework */ = {
+		F293CD6B98389E668E73AE63B5F6FB40 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1DBEA2FD53F64CA372C1D7EB78B15E14 /* AipOcrSdk */,
-				ACB47C3B38D7219BCFCA33B450DF81CB /* dengpao@2x.png */,
-				FD0C8F81AA7D1469DCC164B5FAC5CF9C /* dengpao@3x.png */,
-				26C026893CF3CF4391465E8D288797BE /* dengpao_dianjihou@2x.png */,
-				445A99F1CA776C2E47143D17452AC8BB /* dengpao_dianjihou@3x.png */,
-				B39386528CE4057CA94645485CD63B33 /* guan@2x.png */,
-				2EBB252E89DBF142120CF0E86324676F /* guan@3x.png */,
-				F18BA5142624AC8CFA31C9BC423191C7 /* guanbi@2x.png */,
-				B9454F41A2F1E91CF602B02466ED575F /* guanbi@3x.png */,
-				A23BA8E50DD08755D3983C83AC9B0428 /* Info.plist */,
-				A021699DFCA94F4E28B490032C88AFC1 /* Page 1@2x.png */,
-				E0021A63696CB84A6B573444EDB52938 /* Page 1@3x.png */,
-				1FE18AA52168E2C925F5742D84492546 /* paizhaoanniu@2x.png */,
-				6C2525395629018D77418D7FFB3172A7 /* paizhaoanniu@3x.png */,
-				EA0C92B215FF4786A762958A5504C9EA /* paizhaoanniu_dianjihou@2x.png */,
-				D6F3DED97A78365C1F406011A7313FF3 /* paizhaoanniu_dianjihou@3x.png */,
-				08B2BB248CC833EE7C27A505C658EA75 /* queding@2x.png */,
-				DC512B4AB0D9038772B769364173F3B4 /* queding@3x.png */,
-				D659B3AE411D30FC12D88E5ECD599B9B /* tuku@2x.png */,
-				AE45AD9A165A54CB3CB3AF1A6CD059E9 /* tuku@3x.png */,
-				029C3CCB378ABC772A187CFB7B1C5108 /* xuanzhuan@2x.png */,
-				6C1B857305B60F84422BB7D6BABCB70C /* xuanzhuan@3x.png */,
-				232668EFAE806A42230C85E6030AA4CC /* xuxian@2x.png */,
-				2D4DC12D5A07D7B7170E8EBD13B38EDC /* xuxian@3x.png */,
-				AC55436D5A773A81EB0BA5191CE6D06E /* AipOcrSdk.storyboardc */,
-				AF4D2CD0BA31DE0B6CC9E5DB3913C3A6 /* Headers */,
-				A2DDA750ABD74043A4D32BF5B939C972 /* Modules */,
-				D735868FC9C788591CFD5DCB294A6B3B /* SVProgressHUD.bundle */,
+				60201078D9DBCCDF2CD0706D7162BBA3 /* ImageRecognitionSDK.podspec */,
+				D3905D73465F2324E7D10798FE293616 /* LICENSE */,
+				6F743B85594ECC95B7815376AE5B38D8 /* README.md */,
 			);
-			path = AipOcrSdk.framework;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F362CBDA06725A9614C7B7814DA9A314 /* ImageRecognitionSDK */ = {
+			isa = PBXGroup;
+			children = (
+				4033F0DE401253E8F643D8F337C63EFA /* ReplaceMe.m */,
+				97D9C885724DD73187C5BA23229FF699 /* code */,
+				F3CCC84657DCECD28F08048AC9C7317F /* framework */,
+				952892F15DC7FAF17FB6837B2BA31289 /* Frameworks */,
+				F293CD6B98389E668E73AE63B5F6FB40 /* Pod */,
+				0E7DF567009C03281BB840DCDD61DD03 /* Support Files */,
+			);
+			name = ImageRecognitionSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F3CCC84657DCECD28F08048AC9C7317F /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				BD0D1E009411C0C56C249B9CD4186C6B /* AipBase.framework */,
+				A766B76E6F418E3FCD7FFCCF22C2AD88 /* AipOcrSdk.framework */,
+				DDBE707EC693A0B6734BFBFFFE5A2F54 /* IdcardQuality.framework */,
+			);
+			name = framework;
+			path = ImageRecognitionSDK/Classes/framework;
 			sourceTree = "<group>";
 		};
 		F6E511DAAA4AF4BA4A40088AAB9C898B /* Pods-ImageRecognitionSDK_Tests */ = {
@@ -522,31 +357,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		29CB93F293BB8BAA9296BD43026543AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE895E6332813C3C9E15B0170D66AC1C /* AipBase.h in Headers */,
+				D3209D1136AE3B7CA73711B35AA8207D /* AipCaptureCardVC.h in Headers */,
+				A33B10FBFB3707CAC0C473D654ED04CF /* AipGeneralVC.h in Headers */,
+				342828D4A7C91C48FAD3221C7CA9FCE8 /* AipOcrSdk.h in Headers */,
+				8A3991E9AD1E70A05454DB38942203AF /* AipOcrService.h in Headers */,
+				B72FB7A79D1C19307CCB3EEA81CB1E48 /* AipOpenUDID.h in Headers */,
+				6267912CEE5F0F3EDA8720A4195605A7 /* AipTokenManager.h in Headers */,
+				F98FF45E0E5552513129EDE707C0A974 /* idcard_quality.h in Headers */,
+				ED76FB5FB3FA02D0FCB9C8D4D9119967 /* IdcardQuality.h in Headers */,
+				48DFAD42078437F88AD7A3C87135A8AE /* IdcardQualityAdaptor.h in Headers */,
+				4B8ABCC4305897B649D08F0108F4E47B /* ImageRecognition.h in Headers */,
+				8AC5BA20F680E48F1447E8CE4248579E /* ImageRecognitionSDK-umbrella.h in Headers */,
+				FEDFAFDF2493F1C66C836CD501FBF1D4 /* NSErrorHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B7A33724EA722C74C0E6ED1477AD97EB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E763F73DD043F89BBD32B264889C2122 /* Pods-ImageRecognitionSDK_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8878DDD3A90C112D5A043359C11F30B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				523144FC7A3AC9D65438BE0439C6C11D /* AipBase.h in Headers */,
-				7279F6D96767F721A34B315845ED8D4D /* AipCaptureCardVC.h in Headers */,
-				1281EC21C4D5D3152B7B04A63795B3D5 /* AipGeneralVC.h in Headers */,
-				6B85E0E136CDDF696CC0A22CB6CB4DCD /* AipOcrSdk.h in Headers */,
-				7F3E074ADEFBC125F492244FAC668DDD /* AipOcrService.h in Headers */,
-				598234AAE3906D6C4E746DE65A7D848A /* AipOpenUDID.h in Headers */,
-				9730BE80887942A181962DA20FFD5474 /* AipTokenManager.h in Headers */,
-				6EB9054BC9CDABAE6930BCADA321333F /* idcard_quality.h in Headers */,
-				BBD285A50A681A2E5EBBA0F058C156A7 /* IdcardQuality.h in Headers */,
-				C8B0BBB893CD2CCC71B46ADF223D8D31 /* IdcardQualityAdaptor.h in Headers */,
-				8CB7CB2F81FE4DB0974E3DD1A6148226 /* ImageRecognition.h in Headers */,
-				46F9AADB39B9539F1C2E1B64088C1B1C /* ImageRecognitionSDK-umbrella.h in Headers */,
-				7D2B87652A4BB96A9115FC0BCAF0AEDA /* NSErrorHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,14 +426,14 @@
 			productReference = FB472F63378CBC59C6C65EF291A2D0D2 /* Pods_ImageRecognitionSDK_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CAEA86410AE78DC812E7B73895AAA82B /* ImageRecognitionSDK */ = {
+		7668EE3600E185A7CDFA326375A3268B /* ImageRecognitionSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC6998A40941426068C29D4728374C6A /* Build configuration list for PBXNativeTarget "ImageRecognitionSDK" */;
+			buildConfigurationList = F681B3FA7FABF52F2C8074E72ECD6FEB /* Build configuration list for PBXNativeTarget "ImageRecognitionSDK" */;
 			buildPhases = (
-				F8878DDD3A90C112D5A043359C11F30B /* Headers */,
-				4C9D8CAC2329B78180D866B2E430A2B3 /* Sources */,
-				2F53554685BCC99DBF9D4421DBBBE930 /* Frameworks */,
-				DF37779C48CABAC4ACB244F2FA0F647F /* Resources */,
+				29CB93F293BB8BAA9296BD43026543AE /* Headers */,
+				E47878E1239DED4F1156E948782E0A3A /* Sources */,
+				1118DE9F6F2909D8B04CE398B316EC38 /* Frameworks */,
+				8AB80EC8C0C3AFF381FC55DC33089FB5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -630,7 +465,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CAEA86410AE78DC812E7B73895AAA82B /* ImageRecognitionSDK */,
+				7668EE3600E185A7CDFA326375A3268B /* ImageRecognitionSDK */,
 				054B19967245BCE80898354E1C8CD8BF /* Pods-ImageRecognitionSDK_Example */,
 				6690C3C9936DBDFC0475330892B41060 /* Pods-ImageRecognitionSDK_Tests */,
 			);
@@ -645,14 +480,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98F58C25B64E1AC05BA13ED09D28F852 /* Resources */ = {
+		8AB80EC8C0C3AFF381FC55DC33089FB5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF37779C48CABAC4ACB244F2FA0F647F /* Resources */ = {
+		98F58C25B64E1AC05BA13ED09D28F852 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -670,63 +505,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C9D8CAC2329B78180D866B2E430A2B3 /* Sources */ = {
+		E47878E1239DED4F1156E948782E0A3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B81C69141A7D5A6328EC2D6229FD23BB /* AipBase in Sources */,
-				BA31F96C691FF7A7508BEBC9E476F691 /* AipCaptureCardVC.nib in Sources */,
-				07F3746BD664628C7A1AD2A1BCB219C7 /* AipGeneralVC.nib in Sources */,
-				4E3174957229B2D4E4672A977EF25ECA /* AipOcrSdk in Sources */,
-				ABBF0FE4CFC25D6336D868B0B7EF5CF0 /* angle-mask.png in Sources */,
-				C592D8441ABDBFC286A9EB222125D797 /* angle-mask@2x.png in Sources */,
-				4860682E9821B8A525DCB33599B3D7CC /* angle-mask@3x.png in Sources */,
-				BC162195DC5E39E4372B56CE0C2DB8B0 /* ANZ-N0-y67-view-Tv2-ge-o8Q.nib in Sources */,
-				4ED8EB33D9E99B59ABD314F9170B9A25 /* dengpao@2x.png in Sources */,
-				DC12BAA589FFEC97F7962C462D434872 /* dengpao@3x.png in Sources */,
-				001D0962C0CB4FB9D354612817C119FC /* dengpao_dianjihou@2x.png in Sources */,
-				4ABBB6E997707D4E78C21F72CC476688 /* dengpao_dianjihou@3x.png in Sources */,
-				BB45F7F34BC09F14252D73A18B1F11E3 /* error.png in Sources */,
-				509E5F3B33BD57C4D1091E014E1E7BFC /* error@2x.png in Sources */,
-				74846213D9A13ACFB6BD14FE89D23849 /* error@3x.png in Sources */,
-				A51A3A0934EA47DF4EEAA0A0323675D4 /* guan@2x.png in Sources */,
-				0CF9512458FE7E1BA4E331FDADAA4B1A /* guan@3x.png in Sources */,
-				57047854A39C0C2C3A061D61E809BBCD /* guanbi@2x.png in Sources */,
-				7FBB3C41E6358E9750DC10CB39060591 /* guanbi@3x.png in Sources */,
-				BACAC1D66908700091EF982BF9CAD9DC /* IdcardQuality in Sources */,
-				4357B260936D8D39D3CBDC34C86EDDEA /* ImageRecognition.m in Sources */,
-				5643BCF533CDE0ABC3B39FB8C2876337 /* ImageRecognitionSDK-dummy.m in Sources */,
-				7FCF139B280F43ED280F19221DCEC1F6 /* Info.plist in Sources */,
-				7FCF139B280F43ED280F19221DCEC1F6 /* Info.plist in Sources */,
-				7FCF139B280F43ED280F19221DCEC1F6 /* Info.plist in Sources */,
-				7FCF139B280F43ED280F19221DCEC1F6 /* Info.plist in Sources */,
-				26D7AD5D09E29DE9A0AECAA5A746906C /* info.png in Sources */,
-				EFD3BA8EB6B669E52387D7FF2C3EF15A /* info@2x.png in Sources */,
-				BA27816CEBFA8D9436E203B9F37F1225 /* info@3x.png in Sources */,
-				891BDD9D321FDAC77206E945A7E62859 /* integrity_model_secret.bin in Sources */,
-				A33A806B26D9DD492760AF38AB0B87EC /* module.modulemap in Sources */,
-				A33A806B26D9DD492760AF38AB0B87EC /* module.modulemap in Sources */,
-				A33A806B26D9DD492760AF38AB0B87EC /* module.modulemap in Sources */,
-				54E6F516CE5BCA513485D933482D5D9F /* Page 1@2x.png in Sources */,
-				B8455E8091CCBC4CCAF518B98208DF61 /* Page 1@3x.png in Sources */,
-				4B4A61903EFBB8B2003A513E6807E465 /* paizhaoanniu@2x.png in Sources */,
-				5F2737A9A16D7A58E9E2BEB984B07F8F /* paizhaoanniu@3x.png in Sources */,
-				70FABBDB65569F290D5593AE3C18B62D /* paizhaoanniu_dianjihou@2x.png in Sources */,
-				FE27BCED1EBB49CAE0D4731A45B33F81 /* paizhaoanniu_dianjihou@3x.png in Sources */,
-				F0630E6125B7469A60CDB974C227E1EB /* quality_model_secret.bin in Sources */,
-				3A4966286AB0FDE7E900A6412C6331A0 /* queding@2x.png in Sources */,
-				FD7BC77259C828DF92E3DBCC73C8372A /* queding@3x.png in Sources */,
-				B30243FCEEACB9A8B5EEAC1F91E01C51 /* qVB-bS-VcD-view-pEK-B6-uAC.nib in Sources */,
-				9FDCE9FA715A6EBE9C9B5381E87A17DE /* ReplaceMe.m in Sources */,
-				489FF29A2BF5E3F70C62B356ACDD0C78 /* success.png in Sources */,
-				ED05E27A6D591C4C5582D0B0E48CE54A /* success@2x.png in Sources */,
-				8AD28421ACAC91755AC2B90442FABA99 /* success@3x.png in Sources */,
-				C34EBF5B2C7E4C30B23650E35597E5D3 /* tuku@2x.png in Sources */,
-				83BF9E6A4D494D750A07330E17F3C780 /* tuku@3x.png in Sources */,
-				D908FB710BB1883983AC442133AB1C71 /* xuanzhuan@2x.png in Sources */,
-				412295D5AF97BA385B092E915964E131 /* xuanzhuan@3x.png in Sources */,
-				97C906285232666BD81AF78840D48278 /* xuxian@2x.png in Sources */,
-				5CB36DC5044EFCE61A070DC8AA9BFDE6 /* xuxian@3x.png in Sources */,
+				989937D6723EB743CFE9DAEB4A196A24 /* ImageRecognition.m in Sources */,
+				CC17C5AFDE8A96BBA6774D09041790A1 /* ImageRecognitionSDK-dummy.m in Sources */,
+				88AF1388097EA2346F1EF93B63ECAADD /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -744,7 +529,7 @@
 		201EEDA720496B2529B0266850C657A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ImageRecognitionSDK;
-			target = CAEA86410AE78DC812E7B73895AAA82B /* ImageRecognitionSDK */;
+			target = 7668EE3600E185A7CDFA326375A3268B /* ImageRecognitionSDK */;
 			targetProxy = 945891BA87CCCAE0E4FC792F2ED37BD6 /* PBXContainerItemProxy */;
 		};
 		6B54815BB39EB2D8EABD577CFAB9CB7E /* PBXTargetDependency */ = {
@@ -756,9 +541,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		41ACA1458C4A0A16D20588AFAF041313 /* Release */ = {
+		1BE8E9FCA358A6739671E4FC4A8251EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B65C28645DBDB71C4232EE673972078C /* ImageRecognitionSDK.xcconfig */;
+			baseConfigurationReference = 220A6EC5D9360AB285EFCC10FDDF1130 /* ImageRecognitionSDK.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -786,6 +571,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		31D95122AB39B4BB57EDA8C1DE2A973A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220A6EC5D9360AB285EFCC10FDDF1130 /* ImageRecognitionSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImageRecognitionSDK/ImageRecognitionSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageRecognitionSDK/ImageRecognitionSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImageRecognitionSDK/ImageRecognitionSDK.modulemap";
+				PRODUCT_MODULE_NAME = ImageRecognitionSDK;
+				PRODUCT_NAME = ImageRecognitionSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		4F1A9699D856D49D4D6D1709FCCC943D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -970,7 +785,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1009,36 +825,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		9D2829A2296C9DB4DEFAC4E2DE12A552 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B65C28645DBDB71C4232EE673972078C /* ImageRecognitionSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ImageRecognitionSDK/ImageRecognitionSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ImageRecognitionSDK/ImageRecognitionSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ImageRecognitionSDK/ImageRecognitionSDK.modulemap";
-				PRODUCT_MODULE_NAME = ImageRecognitionSDK;
-				PRODUCT_NAME = ImageRecognitionSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		F9CBFD5FD9E181DC7ADF3DBBC7F4E097 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1104,11 +890,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC6998A40941426068C29D4728374C6A /* Build configuration list for PBXNativeTarget "ImageRecognitionSDK" */ = {
+		F681B3FA7FABF52F2C8074E72ECD6FEB /* Build configuration list for PBXNativeTarget "ImageRecognitionSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D2829A2296C9DB4DEFAC4E2DE12A552 /* Debug */,
-				41ACA1458C4A0A16D20588AFAF041313 /* Release */,
+				31D95122AB39B4BB57EDA8C1DE2A973A /* Debug */,
+				1BE8E9FCA358A6739671E4FC4A8251EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

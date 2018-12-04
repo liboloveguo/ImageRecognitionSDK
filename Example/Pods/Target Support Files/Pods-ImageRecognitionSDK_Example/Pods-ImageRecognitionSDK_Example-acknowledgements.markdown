@@ -3,6 +3,9 @@ This application makes use of the following third party libraries:
 
 ## ImageRecognitionSDK
 
+
+MIT License
+
 Copyright (c) 2018 ag970898664@163.com <zhang.liguo@icerno.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

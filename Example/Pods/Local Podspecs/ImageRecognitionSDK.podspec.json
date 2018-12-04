@@ -1,17 +1,17 @@
 {
   "name": "ImageRecognitionSDK",
   "version": "0.1.0",
-  "summary": "A short description of ImageRecognitionSDK.",
-  "homepage": "https://github.com/ag970898664@163.com/ImageRecognitionSDK",
+  "summary": "ImageRecognitionSDK 编辑.",
+  "homepage": "https://github.com/liboloveguo/ImageRecognitionSDK",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "ag970898664@163.com": "zhang.liguo@icerno.com"
+    "liboloveguo": "ag970898664@163.com"
   },
   "source": {
-    "git": "https://github.com/ag970898664@163.com/ImageRecognitionSDK.git",
+    "git": "https://github.com/liboloveguo/ImageRecognitionSDK.git",
     "tag": "0.1.0"
   },
   "platforms": {

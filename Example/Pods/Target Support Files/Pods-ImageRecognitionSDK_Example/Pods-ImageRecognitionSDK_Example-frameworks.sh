@@ -153,15 +153,9 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/../../ImageRecognitionSDK/Classes/framework/AipBase.framework"
-  install_framework "${PODS_ROOT}/../../ImageRecognitionSDK/Classes/framework/AipOcrSdk.framework"
-  install_framework "${PODS_ROOT}/../../ImageRecognitionSDK/Classes/framework/IdcardQuality.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ImageRecognitionSDK/ImageRecognitionSDK.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/../../ImageRecognitionSDK/Classes/framework/AipBase.framework"
-  install_framework "${PODS_ROOT}/../../ImageRecognitionSDK/Classes/framework/AipOcrSdk.framework"
-  install_framework "${PODS_ROOT}/../../ImageRecognitionSDK/Classes/framework/IdcardQuality.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ImageRecognitionSDK/ImageRecognitionSDK.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

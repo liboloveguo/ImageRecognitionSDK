@@ -18,6 +18,5 @@
     "ios": "8.0"
   },
   "public_header_files": "ImageRecognitionSDK/Classes/**/*.{h}",
-  "source_files": "ImageRecognitionSDK/Classes/**/*.{h,m}",
-  "vendored_frameworks": "ImageRecognitionSDK/Classes/**/*.{framework}"
+  "source_files": "ImageRecognitionSDK/Classes/**/*.{h,m}"
 }

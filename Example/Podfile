@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ImageRecognitionSDK_Example' do
+  pod 'ImageRecognitionSDK', :path => '../'
+
+  target 'ImageRecognitionSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

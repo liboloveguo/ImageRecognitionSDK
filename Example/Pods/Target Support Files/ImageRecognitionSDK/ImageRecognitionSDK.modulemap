@@ -1,0 +1,6 @@
+framework module ImageRecognitionSDK {
+  umbrella header "ImageRecognitionSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

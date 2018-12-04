@@ -1,0 +1,16 @@
+PODS:
+  - ImageRecognitionSDK (0.1.0)
+
+DEPENDENCIES:
+  - ImageRecognitionSDK (from `../`)
+
+EXTERNAL SOURCES:
+  ImageRecognitionSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ImageRecognitionSDK: de6c62edbab5ea19ad46f83e852b2c96225926b2
+
+PODFILE CHECKSUM: 7ac94ff7563c930e4ad6f2b16bdac6c05c319788
+
+COCOAPODS: 1.6.0.beta.2

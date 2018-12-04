@@ -1,0 +1,6 @@
+framework module Pods_ImageRecognitionSDK_Tests {
+  umbrella header "Pods-ImageRecognitionSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
